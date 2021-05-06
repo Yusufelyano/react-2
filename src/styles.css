@@ -1,0 +1,89 @@
+.App{
+    width: 770px;
+    margin: auto;
+}
+.Header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    vertical-align: center;
+}
+.Menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+    font-size: 24px;
+}
+.Menu ul a {
+    text-decoration: none;
+    color: #003399;
+}
+.Logo {
+    display: flex;
+    vertical-align: middle;
+    width: 170px;
+}
+.Number{
+    text-align: center;
+    font-size: 288px;
+    color: #F27C0F;
+}
+.Buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 710px;
+    margin: auto;
+}
+.Increase, .Reduse, .Resent{
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 4px;
+    color: #fff;
+    text-align: center;
+}
+.Increase{
+    background: #003399;
+}
+.Reduse{
+background: #F27C0F;
+}
+.Resent{
+    background: #E5E5E5;
+    color: #000;
+}
+.Footer{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 260px;
+}
+.Footer ul{
+    width: 330px;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    list-style: none;
+    
+}
+.Footer ul a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+}
+.FooterLogo{
+    display: flex;
+    vertical-align: middle;
+
+}
+.FooterMenu{
+    width: 500px;
+    display: flex;
+    vertical-align: middle;
+
+}
+.Copyright{
+    line-height: 50px;
+
+}
